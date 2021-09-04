@@ -1,3 +1,10 @@
+"""
+Given a rectangular matrix of integers m, consider all the paths starting from the top right
+to the bottom left corner and return the maximum sum of numbers among all paths. You can only
+move in two directions: left or down.
+"""
+
+
 def solve(matrix):
     row = (len(matrix[0])+1) * [-10000]
     dp = [row.copy() for _ in range(len(matrix)+1)]

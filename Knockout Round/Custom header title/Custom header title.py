@@ -1,3 +1,10 @@
+"""
+Let letters be a string of uppercase English letters and n an integer that represents a
+column number. Return the an “excel-like” header title (a string) that corresponds to n
+using the characters in letters.
+"""
+
+
 def transform_base(number, base, length):
     result = [0 for _ in range(length)]
     position = 1

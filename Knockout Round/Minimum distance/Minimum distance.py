@@ -1,3 +1,10 @@
+"""
+Given a text and a subText that might be in the text, return the minimum distance
+from the subText to any side of the text. If the subText is not in the text, return -1.
+The distance is the number of characters from the subText to any of the text sides.
+"""
+
+
 def solve(text, subtext):
     index_a = text.find(subtext)
     index_b = text[::-1].find(subtext[::-1])

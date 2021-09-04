@@ -1,3 +1,11 @@
+"""
+Given two integers size and u, return the number of all the possible arrays of length size
+you can create using u different integers with the condition that no more than 2 elements
+are repeated one after another. The elements you use do not matter, just make sure they
+are different.
+"""
+
+
 def solve(size, u):
     def search(variation, size, u):
         if len(variation) == size:

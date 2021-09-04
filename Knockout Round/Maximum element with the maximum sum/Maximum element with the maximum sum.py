@@ -1,3 +1,9 @@
+"""
+Let numbers be an array of integers. Get the maximum element in the array that produces
+the largest sum when adding all the elements that are different from itself.
+"""
+
+
 def solve(numbers):
     results = []
     for number in numbers:
